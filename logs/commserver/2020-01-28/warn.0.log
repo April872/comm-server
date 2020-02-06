@@ -1,0 +1,49 @@
+[WARN ] 20-01-28 12:30:35.964 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:06:41.572 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:17:29.977 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:35:36.712 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:35:37.608 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:36:48.073 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:36:49.154 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:37:50.023 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:37:51.078 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:38:41.462 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:38:42.270 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:39:41.338 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:39:42.564 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:40:27.663 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:40:28.388 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:41:04.658 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:41:06.203 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:42:19.810 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:42:21.576 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:42:28.262 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:42:28.974 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:42:59.712 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:43:00.641 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:44:20.314 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:44:20.933 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:45:25.171 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:45:26.263 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:45:33.160 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:45:33.784 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:45:57.554 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:45:58.479 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:46:40.887 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:46:41.686 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:49:48.181 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:49:48.778 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:51:52.180 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:51:52.858 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:54:22.419 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:54:23.102 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:55:35.192 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 15:55:36.088 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 15:58:35.270 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:03:20.055 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:23:15.379 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:28:03.013 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-28 16:28:04.099 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:38:49.346 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:42:24.062 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-28 16:46:05.405 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.

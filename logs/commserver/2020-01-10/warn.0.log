@@ -1,0 +1,31 @@
+[WARN ] 20-01-10 15:56:24.294 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:06:02.289 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:06:30.075 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:10:23.562 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s864ms298µs180ns).
+[WARN ] 20-01-10 16:27:15.545 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s953ms530µs219ns).
+[WARN ] 20-01-10 16:27:32.162 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:30:23.134 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:31:58.790 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s95ms541µs873ns).
+[WARN ] 20-01-10 16:32:48.683 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:34:21.376 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s213ms698µs851ns).
+[WARN ] 20-01-10 16:39:15.706 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:40:32.157 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s886ms782µs189ns).
+[WARN ] 20-01-10 16:41:47.044 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:43:16.033 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s108ms314µs100ns).
+[WARN ] 20-01-10 16:44:50.792 [main] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:48:40.170 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m48s556ms470µs112ns).
+[WARN ] 20-01-10 16:48:56.139 [main] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:51:26.615 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 16:52:11.787 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:07:43.665 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-10 17:07:44.980 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:08:07.497 [main] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:09:44.978 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:17:27.434 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:18:54.909 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s806ms485µs158ns).
+[WARN ] 20-01-10 17:21:57.794 [main] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:32:59.243 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:34:26.275 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s249ms128µs636ns).
+[WARN ] 20-01-10 17:36:37.727 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-10 17:37:52.053 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s692ms524µs163ns).
+[WARN ] 20-01-10 17:39:42.768 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.

@@ -1,0 +1,12 @@
+[WARN ] 20-01-12 11:18:54.666 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:24:16.838 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:26:36.562 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:36:39.225 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:38:44.322 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m4s549ms487µs72ns).
+[WARN ] 20-01-12 11:41:08.905 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:41:57.506 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s130ms255µs67ns).
+[WARN ] 20-01-12 11:53:51.849 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 11:55:03.298 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 12:01:08.459 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-12 12:02:10.474 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s830ms471µs863ns).
+[WARN ] 20-01-12 12:04:10.681 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.

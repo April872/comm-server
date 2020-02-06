@@ -1,0 +1,322 @@
+[INFO ] 20-01-12 11:18:51.042 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 8992 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:18:51.050 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:18:51.320 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:18:51.321 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:18:52.846 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:18:52.849 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:18:52.898 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:18:53.418 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$10cb330a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:18:53.466 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:18:53.487 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:18:53.955 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:18:53.966 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:18:53.967 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:18:53.967 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:18:53.970 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:18:53.970 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:18:53.971 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:18:53.975 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:18:54.240 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:18:54.240 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2919 ms
+[INFO ] 20-01-12 11:18:54.864 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:18:55.079 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:18:55.209 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:18:55.213 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:18:56.076 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:18:56.168 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:18:56.263 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:18:56.291 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:18:56.291 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:18:56.334 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:18:56.340 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.406 seconds (JVM running for 10.324)
+[INFO ] 20-01-12 11:19:01.216 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:19:49.347 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:2 01|13.34
+[INFO ] 20-01-12 11:20:36.226 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:20:36.245 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:20:36.246 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:20:36.260 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:24:12.819 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 16840 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:24:12.827 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:24:13.056 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:24:13.056 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:24:14.610 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:24:14.615 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:24:14.712 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:24:15.481 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$637df3b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:24:15.546 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:24:15.570 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:24:16.086 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:24:16.099 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:24:16.100 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:24:16.100 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:24:16.104 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:24:16.104 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:24:16.104 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:24:16.109 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:24:16.343 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:24:16.344 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3287 ms
+[INFO ] 20-01-12 11:24:17.041 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:24:17.208 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:24:17.371 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:24:17.374 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:24:18.343 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:24:18.473 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:24:18.523 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:24:18.549 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:24:18.549 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:24:18.562 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:24:18.568 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.897 seconds (JVM running for 9.417)
+[INFO ] 20-01-12 11:24:22.073 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:24:47.375 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:24:47.393 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:24:47.393 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:24:47.412 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:26:32.865 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 8340 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:26:32.870 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:26:33.090 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:26:33.090 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:26:34.587 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:26:34.590 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:26:34.647 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:26:35.357 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8850128e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:26:35.412 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:26:35.434 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:26:35.882 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:26:35.895 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:26:35.896 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:26:35.897 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:26:35.900 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:26:35.901 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:26:35.901 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:26:35.905 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:26:36.134 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:26:36.135 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3044 ms
+[INFO ] 20-01-12 11:26:36.779 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:26:36.978 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:26:37.138 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:26:37.140 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:26:37.980 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:26:38.084 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:26:38.132 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:26:38.154 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:26:38.154 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:26:38.167 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:26:38.174 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.196 seconds (JVM running for 8.691)
+[INFO ] 20-01-12 11:26:47.746 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:27:01.189 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:27:01.206 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:27:01.207 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:27:01.223 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:36:35.592 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 16052 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:36:35.597 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:36:35.815 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:36:35.815 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:36:37.298 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:36:37.302 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:36:37.358 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:36:38.041 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2db7c868] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:36:38.076 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:36:38.091 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:36:38.554 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:36:38.567 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:36:38.568 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:36:38.569 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:36:38.573 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:36:38.573 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:36:38.573 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:36:38.578 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:36:38.817 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:36:38.817 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3001 ms
+[INFO ] 20-01-12 11:36:39.441 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:36:39.671 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:36:39.858 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:36:39.860 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:36:41.017 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:36:41.120 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:36:41.173 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:36:41.200 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:36:41.200 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:36:41.212 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:36:41.217 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.545 seconds (JVM running for 8.861)
+[INFO ] 20-01-12 11:36:44.780 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:38:44.355 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:38:44.372 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:38:44.374 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:38:44.390 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:41:04.906 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 7932 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:41:04.912 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:41:05.111 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:41:05.111 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:41:06.729 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:41:06.743 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:41:06.819 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:41:07.647 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$863bac91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:41:07.692 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:41:07.715 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:41:08.180 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:41:08.193 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:41:08.194 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:41:08.195 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:41:08.198 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:41:08.198 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:41:08.199 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:41:08.203 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:41:08.464 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:41:08.465 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3353 ms
+[INFO ] 20-01-12 11:41:09.105 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:41:09.274 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:41:09.437 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:41:09.439 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:41:10.602 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:41:10.719 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:41:10.823 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:41:10.855 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:41:10.856 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:41:10.872 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:41:10.879 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.863 seconds (JVM running for 9.133)
+[INFO ] 20-01-12 11:41:14.997 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:42:23.362 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - 插入数据成功！---DataList(id=3, dataId=1, deviceId=2, dataTypeId=2, value=12.44, collectionTime=null, status=0)
+[INFO ] 20-01-12 11:43:37.451 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:43:37.468 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:43:37.469 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:43:37.484 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:53:48.107 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 17284 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:53:48.115 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:53:48.326 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:53:48.327 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:53:49.837 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:53:49.845 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:53:49.921 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:53:50.650 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a2e78b6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:53:50.695 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:53:50.717 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:53:51.165 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:53:51.180 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:53:51.182 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:53:51.183 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:53:51.188 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:53:51.188 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:53:51.189 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:53:51.194 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:53:51.321 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:53:51.321 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2994 ms
+[INFO ] 20-01-12 11:53:52.063 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:53:52.228 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:53:52.379 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:53:52.381 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:53:53.226 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:53:53.313 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:53:53.370 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:53:53.395 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:53:53.396 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:53:53.411 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:53:53.418 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.146 seconds (JVM running for 8.354)
+[INFO ] 20-01-12 11:53:56.942 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:54:18.182 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - 插入数据成功！---DataList(id=4, dataId=1, deviceId=2, dataTypeId=2, value=12.44, collectionTime=2020-01-12 11:54:13.659, status=0)
+[INFO ] 20-01-12 11:54:45.175 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:54:45.191 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:54:45.192 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 11:54:45.206 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 11:54:59.621 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 7496 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 11:54:59.625 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 11:54:59.802 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 11:54:59.802 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 11:55:01.055 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 11:55:01.062 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 11:55:01.144 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 11:55:01.935 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d4b16a59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:55:01.983 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 11:55:02.008 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 11:55:02.699 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 11:55:02.709 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:55:02.710 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 11:55:02.710 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 11:55:02.713 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 11:55:02.713 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 11:55:02.713 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 11:55:02.719 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 11:55:02.838 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 11:55:02.838 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3035 ms
+[INFO ] 20-01-12 11:55:03.473 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 11:55:03.623 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 11:55:03.792 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 11:55:03.794 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 11:55:04.517 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 11:55:04.580 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 11:55:04.625 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 11:55:04.643 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 11:55:04.643 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 11:55:04.654 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 11:55:04.658 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 5.749 seconds (JVM running for 7.473)
+[INFO ] 20-01-12 11:55:11.046 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|13.34
+[INFO ] 20-01-12 11:55:11.081 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - 插入数据成功！---DataList(id=5, dataId=1, deviceId=2, dataTypeId=2, value=12.44, collectionTime=2020-01-12 11:55:11.048, status=0)
+[INFO ] 20-01-12 12:01:04.169 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 6140 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 12:01:04.175 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 12:01:04.419 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 12:01:04.420 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 12:01:06.232 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 12:01:06.236 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 12:01:06.309 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 12:01:07.174 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9f3e4509] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 12:01:07.223 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 12:01:07.248 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 12:01:07.779 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 12:01:07.796 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 12:01:07.797 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 12:01:07.797 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 12:01:07.801 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 12:01:07.801 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 12:01:07.801 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 12:01:07.806 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 12:01:08.063 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 12:01:08.065 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3645 ms
+[INFO ] 20-01-12 12:01:08.652 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 12:01:08.819 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 12:01:08.997 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 12:01:08.998 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 12:01:10.079 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 12:01:10.167 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 12:01:10.213 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 12:01:10.236 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 12:01:10.237 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 12:01:10.249 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 12:01:10.256 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 6.93 seconds (JVM running for 9.255)
+[INFO ] 20-01-12 12:01:32.467 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|123.34
+[INFO ] 20-01-12 12:02:10.495 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - 插入数据成功！-DataList(id=6, dataId=1, deviceId=2, dataTypeId=2, value=12.44, collectionTime=2020-01-12 12:02:01.749, status=0)
+[INFO ] 20-01-12 12:03:55.049 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 12:03:55.066 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 12:03:55.067 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 20-01-12 12:03:55.082 [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 20-01-12 12:04:07.393 [restartedMain] com.ms.server.ServerApplication - Starting ServerApplication on GH-PC with PID 16376 (D:\JetBrains\IdeaProjects\comm-server\target\classes started by April in D:\JetBrains\IdeaProjects\comm-server)
+[INFO ] 20-01-12 12:04:07.399 [restartedMain] com.ms.server.ServerApplication - No active profile set, falling back to default profiles: default
+[INFO ] 20-01-12 12:04:07.637 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 20-01-12 12:04:07.638 [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 20-01-12 12:04:08.773 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 20-01-12 12:04:08.776 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ] 20-01-12 12:04:08.842 [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+[INFO ] 20-01-12 12:04:09.518 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6785dade] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 12:04:09.551 [restartedMain] o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 20-01-12 12:04:09.563 [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 20-01-12 12:04:09.957 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 20-01-12 12:04:09.967 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 12:04:09.968 [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 20-01-12 12:04:09.968 [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+[INFO ] 20-01-12 12:04:09.970 [restartedMain] o.a.c.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+[INFO ] 20-01-12 12:04:09.971 [restartedMain] o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[INFO ] 20-01-12 12:04:09.971 [restartedMain] o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[INFO ] 20-01-12 12:04:09.975 [restartedMain] o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+[INFO ] 20-01-12 12:04:10.082 [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 20-01-12 12:04:10.082 [restartedMain] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2444 ms
+[INFO ] 20-01-12 12:04:10.909 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 20-01-12 12:04:11.083 [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 20-01-12 12:04:11.267 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService
+[INFO ] 20-01-12 12:04:11.269 [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'TaskAsyncPool'
+[INFO ] 20-01-12 12:04:12.264 [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+[INFO ] 20-01-12 12:04:12.360 [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 20-01-12 12:04:12.418 [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 20-01-12 12:04:12.447 [UDPExecutor-1] com.ms.server.udp.UdpServer - --------------------------------------------------------------------
+[INFO ] 20-01-12 12:04:12.448 [UDPExecutor-1] com.ms.server.udp.UdpServer -  UDP Server start!!!  UDP Receive msg Port:8888
+[INFO ] 20-01-12 12:04:12.462 [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 20-01-12 12:04:12.475 [restartedMain] com.ms.server.ServerApplication - Started ServerApplication in 5.886 seconds (JVM running for 7.697)
+[INFO ] 20-01-12 12:04:16.540 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - Received UDP Msg:1 01|123.34
+[INFO ] 20-01-12 12:04:16.560 [nioEventLoopGroup-4-1] com.ms.server.udp.UdpServerHandler - 插入数据成功！-DataList(id=7, dataId=1, deviceId=2, dataTypeId=2, value=123.34, collectionTime=2020-01-12 12:04:16.541, status=0)

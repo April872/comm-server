@@ -1,0 +1,52 @@
+context:
+  listener:
+    classes: com.ms.server.init.StartupEvent
+
+
+ms-server:
+  #通信协议：TCP/UDP/HTTP/MODBUS
+  tcp: false
+  udp: true
+  http: false
+  modbus: false
+
+spring:
+  # 数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/msdb?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  messages:
+    encoding: utf-8
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: root
+    timeout: 1000
+    lettuce:
+      pool:
+        max-active: 10
+        max-wait: -1
+        max-idle: 10
+        min-idle: 1
+
+mybatis-plus:
+  # MyBaits 别名包扫描路径，通过该属性可以给包中的类注册别名
+  mapper-locations: classpath:/mapper/*.xml
+
+
+
+#UDP消息接收打端口
+sysfig:
+  udpReceivePort: 8888
+#spring线程池
+  #核心线程数
+  corePoolSize: 5
+  #最大线程数
+  maxPoolSize: 100
+  #线程池维护线程所允许的空闲时间
+  keepAliveSeconds: 100
+  #队列最大长度
+  queueCapacity: 1000

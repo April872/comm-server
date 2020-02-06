@@ -1,0 +1,26 @@
+[WARN ] 20-01-17 12:59:28.255 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:05:30.346 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:17:42.649 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:17:43.167 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:18:22.299 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:20:16.064 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:20:16.379 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:23:44.268 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:23:44.705 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:26:11.597 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:26:11.997 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:31:00.698 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:38:07.515 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m33s353ms17µs908ns).
+[WARN ] 20-01-17 13:39:21.702 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:40:59.745 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:43:18.503 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s275ms967µs216ns).
+[WARN ] 20-01-17 13:44:43.596 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:44:43.976 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:47:33.396 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:50:51.716 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:51:35.111 [restartedMain] o.a.tomcat.util.modeler.Registry - The MBean registry cannot be disabled because it has already been initialised
+[WARN ] 20-01-17 13:51:35.529 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 13:55:10.243 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 14:07:03.332 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 14:12:21.768 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
+[WARN ] 20-01-17 14:12:59.243 [restartedMain] c.b.m.core.metadata.TableInfoHelper - Warn: Could not find @TableId in Class: com.ms.server.entity.BaseDataPointInfo.
